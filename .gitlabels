@@ -1,0 +1,15 @@
+# See <https://github.com/elliottcable/.gitlabels>
+
+- (new) Indicates new content or features are introduced
+- (fix) Indicates changes that fix outstanding bugs or problems
+- (rm remove) Removes any functionality.
+
+- (perf performance) Introduces performance optimisations
+- (re refactor) Indicates a commit that subtly changes something for the better
+
+- (break) The change breaks an existing feature
+- (release) A new public release
+
+- (doc documentation) Changes to API or other docs
+- (test) Changes to test files
+- (chore) Changes to other things (tooling, metadata)
