@@ -6,7 +6,7 @@
  * @example
  *
  * upperCase('test')
- * // => 'TEST
+ * // => 'TEST'
  */
 const upperCase = text => text.toUpperCase();
 
