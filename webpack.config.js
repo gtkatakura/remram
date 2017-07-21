@@ -4,7 +4,10 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: 'index.js',
+    libraryTarget: 'umd',
+    libraryExport: 'default',
+    library: '_',
   },
   module: {
     loaders: [{
