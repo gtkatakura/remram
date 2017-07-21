@@ -1,3 +1,8 @@
 import array from './array';
+import string from './string';
 
-export default array;
+export default Object.assign(
+  {},
+  array,
+  string,
+);
