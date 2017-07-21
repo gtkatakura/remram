@@ -5,7 +5,7 @@
  * @returns {Array} Returns the new flattened array.
  * @example
  *
- * flatten([1, [2, [3]])
+ * flatten([1, [2, [3]]])
  * // => [1, 2, [3]]
  */
 const flatten = array => [].concat(...array);
