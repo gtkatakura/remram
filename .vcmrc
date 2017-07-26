@@ -1,0 +1,21 @@
+{
+  "types": [
+    "feat",
+    "fix",
+    "remove",
+    "style",
+    "perf",
+    "refactor",
+    "build",
+    "release",
+    "test",
+    "docs",
+    "tools",
+    "chore"
+  ],
+  "warnOnFail": false,
+  "maxSubjectLength": 100,
+  "subjectPattern": ".+",
+  "subjectPatternErrorMsg": "subject does not match subject pattern!",
+  "helpMessage": ""
+}

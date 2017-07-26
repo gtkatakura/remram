@@ -8,6 +8,7 @@
   "scripts": {
     "build": "webpack",
     "prepublish": "npm run build",
+    "commitmsg": "validate-commit-msg",
     "commit": "git-cz",
     "test": "npm run coverage",
     "test:all": "mocha --compilers js:babel-core/register test/**/*.spec.js",
@@ -27,8 +28,10 @@
     "eslint-plugin-import": "2.7.0",
     "eslint-plugin-jsx-a11y": "5.1.1",
     "eslint-plugin-react": "7.1.0",
+    "husky": "^0.14.3",
     "mocha": "^3.4.2",
     "nyc": "^11.0.3",
+    "validate-commit-msg": "^2.13.1",
     "webpack": "^3.3.0"
   },
   "dependencies": {},
