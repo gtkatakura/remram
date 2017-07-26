@@ -1,4 +1,5 @@
 const path = require('path');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -16,4 +17,7 @@ module.exports = {
       exclude: /node_modules/,
     }],
   },
+  plugins: [
+    new UglifyJSPlugin(),
+  ],
 };
