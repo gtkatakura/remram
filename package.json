@@ -16,6 +16,7 @@
     "coverage": "nyc -r=lcov -r=text -i babel-core/register mocha test/**/*.spec.js"
   },
   "devDependencies": {
+    "all-contributors-cli": "^4.3.0",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
