@@ -10,3 +10,5 @@ after_script:
   - codecov -f coverage/lcov.info
   - npm install -g codacy-coverage
   - cat ./coverage/lcov.info | codacy-coverage
+  - npm install -g coveralls
+  - cat ./coverage/lcov.info | coveralls
