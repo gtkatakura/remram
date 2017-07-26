@@ -1,6 +1,7 @@
 # RemRam
 
 [![Build Status](https://travis-ci.org/gtkatakura/remram.svg?branch=master)](https://travis-ci.org/gtkatakura/remram)
+[![Dependency CI Status](https://dependencyci.com/github/gtkatakura/remram/badge)](https://dependencyci.com/github/gtkatakura/remram)
 [![Known Vulnerabilities](https://snyk.io/test/github/gtkatakura/remram/badge.svg)](https://snyk.io/test/github/gtkatakura/remram)
 [![dependencies Status](https://david-dm.org/gtkatakura/remram/status.svg)](https://david-dm.org/gtkatakura/remram)
 [![devDependencies Status](https://david-dm.org/gtkatakura/remram/dev-status.svg)](https://david-dm.org/gtkatakura/remram?type=dev)
