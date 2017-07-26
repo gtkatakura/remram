@@ -1,5 +1,6 @@
 src
 test
+.all-contributorsrc
 .babelrc
 .codeclimate.yml
 .editorconfig
@@ -8,3 +9,7 @@ test
 .gitlabels
 .travis.yml
 webpack.config.js
+
+coverage/
+doc/
+.nyc_output/
