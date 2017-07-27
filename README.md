@@ -14,6 +14,7 @@
 [![Doc Coverage](https://doc.esdoc.org/github.com/gtkatakura/remram/badge.svg)](https://doc.esdoc.org/github.com/gtkatakura/remram)
 [![Code Climate](https://codeclimate.com/github/gtkatakura/remram/badges/gpa.svg)](https://codeclimate.com/github/gtkatakura/remram)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9c1cc8a9eeeb436993d546f910d8b4b5)](https://www.codacy.com/app/gtkatakura/remram?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gtkatakura/remram&amp;utm_campaign=Badge_Grade)
+[![CodeFactor](https://www.codefactor.io/repository/github/gtkatakura/remram/badge)](https://www.codefactor.io/repository/github/gtkatakura/remram)
 
 ## Contributors
 
