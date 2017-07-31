@@ -1,24 +1,24 @@
 # Test against the latest version of this Node.js version
 environment:
   matrix:
-    - nodejs_version: "8"
-    - nodejs_version: "7"
-    - nodejs_version: "6"
+    - node_version: "8"
+    - node_version: "7"
+    - node_version: "6"
 
 # Install scripts. (runs after repo cloning)
 install:
-  # Get the latest stable version of Node.js or io.js
-  - ps: Install-Product node $env:nodejs_version
-  # install modules
-  - npm install
+  - ps: Install-Product node $env:node_version
+  - yarn install
 
 # Post-install test scripts.
 test_script:
-  # Output useful info for debugging.
   - node --version
   - npm --version
-  # run tests
   - npm test
+
+cache:
+ - node_modules
+ - "%LOCALAPPDATA%/Yarn"
 
 # Don't actually build.
 build: off
