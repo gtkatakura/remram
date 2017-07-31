@@ -7,12 +7,9 @@ node_js:
   - "7"
   - "6"
 after_script:
-  - npm install -g codeclimate-test-reporter
+  - yarn global add codeclimate-test-reporter codecov codacy-coverage coveralls
   - codeclimate-test-reporter < coverage/lcov.info
-  - npm install -g codecov
   - codecov -f coverage/lcov.info
-  - npm install -g codacy-coverage
   - cat ./coverage/lcov.info | codacy-coverage
-  - npm install -g coveralls
   - cat ./coverage/lcov.info | coveralls
 cache: yarn
