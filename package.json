@@ -34,7 +34,7 @@
     "mocha": "^3.4.2",
     "nyc": "^11.0.3",
     "standard-version": "^4.2.0",
-    "uglifyjs-webpack-plugin": "^1.1.1",
+    "uglifyjs-webpack-plugin": "^1.1.2",
     "validate-commit-msg": "^2.13.1",
     "webpack": "^3.3.0"
   },
