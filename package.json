@@ -1,6 +1,6 @@
 {
   "name": "remram",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "main": "dist/index.js",
   "repository": "https://github.com/gtkatakura/remram.git",
   "author": "gtkatakura <gt.katakura@gmail.com>",
@@ -13,7 +13,9 @@
     "release": "standard-version",
     "test": "npm run coverage",
     "test:all": "mocha --compilers js:babel-core/register test/**/*.spec.js",
-    "coverage": "nyc -r=lcov -r=text -i babel-core/register mocha test/**/*.spec.js"
+    "coverage": "nyc -r=lcov -r=text -i babel-core/register mocha test/**/*.spec.js",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "all-contributors-cli": "^4.3.0",
@@ -36,7 +38,9 @@
     "standard-version": "^4.2.0",
     "uglifyjs-webpack-plugin": "^0.4.6",
     "validate-commit-msg": "^2.13.1",
-    "webpack": "^3.3.0"
+    "webpack": "^3.3.0",
+    "travis-deploy-once": "^4.3.4",
+    "semantic-release": "^12.4.1"
   },
   "dependencies": {},
   "config": {
