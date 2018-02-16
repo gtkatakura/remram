@@ -15,6 +15,7 @@ after_script:
   - cat ./coverage/lcov.info | codacy-coverage
   - cat ./coverage/lcov.info | coveralls
 after_success:
+  - nvm install 8 && yarn global add semantic-release
   - npm run travis-deploy-once "npm run semantic-release"
 branches:
   except:
