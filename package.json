@@ -6,8 +6,7 @@
   "author": "gtkatakura <gt.katakura@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
-    "prepublish": "npm run build",
+    "prepublish": "webpack",
     "commitmsg": "validate-commit-msg",
     "commit": "git-cz",
     "release": "standard-version",
