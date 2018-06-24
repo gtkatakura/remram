@@ -33,7 +33,7 @@
     "eslint-plugin-jsx-a11y": "5.1.1",
     "eslint-plugin-react": "7.1.0",
     "husky": "^0.14.3",
-    "mocha": "^3.4.2",
+    "mocha": "^5.0.1",
     "nyc": "^11.0.3",
     "standard-version": "^4.2.0",
     "travis-deploy-once": "^4.3.4",
