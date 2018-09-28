@@ -20,7 +20,7 @@
     "all-contributors-cli": "^4.3.0",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
-    "babel-loader": "^8.0.2",
+    "babel-loader": "^8.0.4",
     "babel-preset-env": "^1.6.0",
     "chai": "^4.1.0",
     "commitizen": "^2.9.6",
