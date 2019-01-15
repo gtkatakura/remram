@@ -36,7 +36,7 @@
     "mocha": "^3.4.2",
     "nyc": "^11.0.3",
     "standard-version": "^4.2.0",
-    "travis-deploy-once": "^5.0.0",
+    "travis-deploy-once": "^5.0.11",
     "uglifyjs-webpack-plugin": "^0.4.6",
     "validate-commit-msg": "^2.13.1",
     "wallaby-webpack": "^3.9.4",
