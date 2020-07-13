@@ -35,7 +35,7 @@
     "husky": "^0.14.3",
     "mocha": "^3.4.2",
     "nyc": "^11.0.3",
-    "standard-version": "^4.2.0",
+    "standard-version": "^8.0.1",
     "travis-deploy-once": "^4.3.4",
     "uglifyjs-webpack-plugin": "^0.4.6",
     "validate-commit-msg": "^2.13.1",
